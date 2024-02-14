@@ -5,3 +5,5 @@ print(factorial(5))
 print(fib_rec(8))
 print(is_even(20))
 print(is_odd(19))
+print(func(15))
+
