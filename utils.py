@@ -13,3 +13,11 @@ def is_prime(n):
                 return "Not prime"
         else:
             return "Is prime"
+
+def GCD(a, b):
+    while a * b != 0:
+        if a > b:
+            a = a % b
+        else:
+            b = b % a
+    return b + a
