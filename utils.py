@@ -21,3 +21,10 @@ def GCD(a, b):
         else:
             b = b % a
     return b + a
+
+
+def fib_rec(n):
+    if n <= 2:
+        return 1
+    return fib_rec(n - 1) + fib_rec(n - 2)
+
